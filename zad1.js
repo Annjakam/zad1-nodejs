@@ -1,15 +1,13 @@
 const prompt = require("prompt-sync")({ sigint: true });
-const ilosc1 = prompt("1 liczby całkowite");
-const ilosc2= prompt("2 liczby całkowite")
+const ilosc1 = prompt("waga");
+const ilosc2= prompt("wzrost")
 // console.log(`You are ${age} years old.`);
 // if (age >=18){console.log(`pełnoletni.`)}
 // else {console.log(`niepełnoletni.`)};
-console.log (ilosc1, ilosc2);
-if (ilosc1>ilosc2)
-{
-console.log (ilosc2, ilosc1)
-}
-if (ilosc2>ilosc1)
-{
-console.log (ilosc1, ilosc2)
-}
+let x;
+let z=24.9;
+let y=18.5;
+x= ilosc1/(ilosc2*ilosc2);
+if (x<y){console.log ('niedowaga')}
+else if(x>z){console.log ('nadwaga')}
+else {console.log('waga prawidłowa')};
