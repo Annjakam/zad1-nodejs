@@ -1,12 +1,8 @@
 const prompt = require("prompt-sync")({ sigint: true });
-const ilosc = prompt("Ile gwiazdek ");
+const ilosc = prompt("Stopnie celsjusza ");
 // console.log(`You are ${age} years old.`);
 // if (age >=18){console.log(`pełnoletni.`)}
 // else {console.log(`niepełnoletni.`)};
-let s = "" 
-for (let i=0; i<ilosc; i++) {//console.log ('*');
-s += '*';  
-console.log(s)
-//console.log ('*')
-}
-//nowa gałąź
+let x ;
+x= 1.8 * ilosc + 32
+console.log (x)
